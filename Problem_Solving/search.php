@@ -7,7 +7,6 @@ search($angka);
 function search($angka){
     $data = [1,2,3,4,5,6,7];
     $hasil = array_search($angka, $data); 
-    var_dump($hasil);
    
     if(is_int($hasil) == true){
         echo "index ke ".$hasil;
