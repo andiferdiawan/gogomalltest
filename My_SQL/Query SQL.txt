@@ -1,0 +1,9 @@
+Query 1 
+
+SELECT tc.id as id_customer, tc.no_telpon as no_telpon_customer, tc.produk, ts.nama_sales FROM customer as tc, sales as ts WHERE tc.id_sales = ts.id_sales
+
+
+Query 2 Jumlah Customer
+
+SELECT COUNT(*) as jumlah_customer FROM pelanggan as tp WHERE tp.umur > 30 AND tp.jenis_kelamin = 'Perempuan'
+
